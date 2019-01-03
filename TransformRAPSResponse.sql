@@ -137,6 +137,32 @@
       ,[HIC-ERROR-CODE]
       ,[PATIENT-DOB]
       ,[DOB-ERROR-CODE]
+      ,[PROVIDER-TYPE-06] As [PROVIDER-TYPE]
+      ,Cast(SubString([FROM-DATE-06],1,4)
+							+'-'+SubString([FROM-DATE-06],5,2)
+							+'-'+SubString([FROM-DATE-06],7,2)+' 00:00:00.000' As DateTime) As [FROM-DATE]
+      ,Cast(SubString([THRU-DATE-06],1,4)
+							+'-'+SubString([THRU-DATE-06],5,2)
+							+'-'+SubString([THRU-DATE-06],7,2)+' 00:00:00.000' As DateTime) As [THRU-DATE]
+      ,[DELETE-IND-06] As [DELETE-IND]
+      ,[DIAGNOSIS-CODE-06] As [DIAGNOSIS-CODE]
+      ,[DIAG-CLSTR-ERROR-1-06] As [DIAG-CLSTR-ERROR-1]
+      ,[DIAG-CLSTR-ERROR-2-06] As [DIAG-CLSTR-ERROR-2]
+      ,[FILLER]
+      ,[DateImported]
+      ,[RAPSFileName]
+  FROM [dbo].[RAPSResponseCCC]
+  Where	[DIAGNOSIS-CODE-06]<>'       '
+
+  Insert Into [dbo].[RAPSResponseDDD]
+  SELECT [RECORD-ID]
+      ,[SEQ-NO]
+      ,[SEQ-ERROR-CODE]
+      ,[PATIENT-CONTROL-NO]
+      ,[HIC-NO]
+      ,[HIC-ERROR-CODE]
+      ,[PATIENT-DOB]
+      ,[DOB-ERROR-CODE]
       ,[PROVIDER-TYPE-07] As [PROVIDER-TYPE]
       ,Cast(SubString([FROM-DATE-07],1,4)
 							+'-'+SubString([FROM-DATE-07],5,2)
