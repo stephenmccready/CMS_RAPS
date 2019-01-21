@@ -14,6 +14,9 @@ RAPSResponseZZZ - File Trailer<br/>
 <b>TransformRAPSResponse.sql:</b><br/>
 Creates 1 record in RAPSResponseDDD for each diagnoses in RAPSResponseCCC<br/>
 <br/>
-File layout is loacated here:<br/>
+File layout is located here:<br/>
 https://www.cms.gov/Regulations-and-Guidance/Guidance/Transmittals/Downloads/R116MCM.pdf</br>
 at page 16<br/>
+<hr/>
+<b>fileparse.py</b><br/>
+A script to split out the response files from multiple files per file to a single file per output file.
