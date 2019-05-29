@@ -1,0 +1,78 @@
+1	General Practice
+2	General Surgery
+3	Allergy/Immunology
+4	Otolaryngology
+5	Anesthesiology
+6	Cardiology
+7	Dermatology
+8	Family Practice
+9	Interventional Pain Management (IPM)
+10	Gastroenterology
+11	Internal Medicine
+12	Osteopathic Manipulative Medicine
+13	Neurology
+14	Neurosurgery
+15	Speech Language Pathologist
+16	Obstetrics/Gynecology
+17	Hospice And Palliative Care
+18	Ophthalmology
+19	Oral Surgery (dentists only)
+20	Orthopedic Surgery
+21	Cardiac Electrophysiology
+22	Pathology
+23	Sports Medicine
+24	Plastic And Reconstructive Surgery
+25	Physical Medicine And Rehabilitation
+26	Psychiatry
+27	Geriatric Psychiatry
+28	Colorectal Surgery (formerly Proctology)
+29	Pulmonary Disease
+33	Thoracic Surgery
+34	Urology
+35	Chiropractic
+36	Nuclear Medicine
+37	Pediatric Medicine
+38	Geriatric Medicine
+39	Nephrology
+40	Hand Surgery
+41	Optometry
+42	Certified Nurse Midwife
+43	Certified Registered Nurse Anesthetist
+44	Infectious Disease
+46	Endocrinology
+48	Podiatry
+50	Nurse Practitioner
+62	Psychologist
+64	Audiologist
+65	Physical Therapist
+66	Rheumatology
+67	Occupational Therapist
+68	Clinical Psychologist
+72	Pain Management
+76	Peripheral Vascular Disease
+77	Vascular Surgery
+78	Cardiac Surgery
+79	Addiction Medicine
+80	Licensed Clinical Social Worker
+81	Critical care (intensivists)
+82	Hematology
+83	Hematology/Oncology
+84	Preventive Medicine
+85	Maxillofacial Surgery
+86	Neuropsychiatry
+89	Certified Clinical Nurse Specialist
+90	Medical Oncology
+91	Surgical Oncology
+92	Radiation Oncology
+93	Emergency Medicine
+94	Interventional Radiology
+97	Physician Assistant
+98	Gynecologist/Oncologist
+99	Unknown Physician Specialty
+C0	Sleep Medicine
+C3	Interventional Cardiology
+C5	Dentist
+C6	Hospitalist
+C7	Advanced Heart Failure And Transplant Cardiology
+C8	Medical Toxicology
+C9	Hematopoietic Cell Transplantation And Cellular Therapy
